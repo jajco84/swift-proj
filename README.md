@@ -15,12 +15,14 @@ import PackageDescription
 let package = Package(
     name: "<Your Product Name>",
     dependencies: [
-		.package(url: "https://github.com/jajco84/swift-proj.git", from: "0.1.0"))
+		.package(url: "https://github.com/jajco84/swift-proj.git", branch: "main"))
     ],
     targets: [
         .target(
 		name: "<Your Target Name>",
-		dependencies: ["SwiftProjection"]),
+		dependencies: [
+            .product(name: "SwiftProjection", package: "swift-proj")
+        ]),
     ]
 )
 ```
