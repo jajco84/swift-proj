@@ -1,7 +1,7 @@
 # swift-proj
 Swift library for coordinate systems transformations
 
-java port of https://github.com/NetTopologySuite/ProjNet4GeoAPI
+port of https://github.com/NetTopologySuite/ProjNet4GeoAPI
 
 ## Installation
 
